@@ -1,0 +1,77 @@
+
+form{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    text-shadow:0.1px 0.1px 0px white;
+    color: lightskyblue;
+    font-family: Segoe UI Historic;
+
+}
+body{
+  
+    justify-content: center;
+    align-items: center;
+     
+}
+legend{
+    margin: auto;
+    font-size: 24pt;
+
+
+}
+html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background: url("../kepek/reg_hatter.jpg") no-repeat;
+    background-size: cover;
+}
+#tartalom{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    grid-gap: 5px;
+}
+label{
+
+    float: right;
+    text-align: right;
+
+}
+input{
+    width: auto;
+
+
+}
+
+.bt{
+    margin: auto;
+    margin-top: 10px;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: lightskyblue;
+}
+fieldset {
+    width: auto;
+    margin: auto;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+    #tartalom {
+      font-size: 24px;
+        
+    }
+}
