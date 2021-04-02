@@ -1,8 +1,9 @@
+<?php
+session_unset();
+//session_start();
 
-
-
+?>
 <!DOCTYPE html>
-
 <html lang="hu-HU">
     <head>
         <title>Belépés</title>
@@ -17,6 +18,7 @@
     <body>
         <?php
         include 'log.php';
+
         ?>
 
 

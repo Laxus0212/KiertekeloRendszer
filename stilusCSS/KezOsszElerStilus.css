@@ -1,0 +1,115 @@
+html{
+    background: url("../kepek/lapokHattere.png") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+}
+
+body{
+    min-height: 100vh;
+    width: 80%;
+    margin: auto;
+}
+#tartalom{
+    background-color: white;
+}
+h2, p{
+    margin: 1%;
+}
+/*
+/*1rem = 16px*/
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Reszponzivitás
+*/
+/* telefon */
+@media only screen and (max-width: 600px) {
+    * {
+        font-size: 1.2rem;
+
+    }
+    body{
+        width: 100vh;
+    }
+    form{
+        width: 98%;
+        margin: auto;
+
+    }
+
+
+
+    /*1rem = 16px*/
+}
+
+/* tablet */
+@media only screen and (min-width: 600px) {
+    * {
+        font-size: 1.2rem;
+
+    }
+    body{
+        width: 100%;
+    }
+    form{
+        width: 98%;
+        margin: auto;
+
+    }
+    /*1rem = 16px*/
+}
+
+/* monitor */
+@media only screen and (min-width: 768px) {
+    * {
+        font-size: 1.2rem;
+    }
+    body{
+        width: 100%;
+
+    }
+    /*1rem = 16px*/
+}
+
+/* nagy monitor */
+@media only screen and (min-width: 992px) {
+    * {
+        font-size: 1.2rem;
+    }
+    body{
+        width: 100%;
+    }
+    form{
+        width: 49%;
+        margin: 1% 1% 1% 1%;
+    }
+
+    /*1rem = 16px*/
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media only screen and (min-width: 1200px) {
+    * {
+        font-size: 1.2rem;
+
+    }
+    body{
+        width: 80%;
+    }
+    form{
+        width: 49%;
+        margin: 1% 1% 1% 1%;
+    }
+}
+
+
+
+
+
+
+
+
