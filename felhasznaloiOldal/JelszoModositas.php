@@ -1,5 +1,6 @@
 <?php
-include '../felhasznalo.php';
+include_once "../felhEllenorzes.php";
+(new FelhEllenorzes())->felhasznalo();
 ?>
 
 <!doctype html>
@@ -77,7 +78,8 @@ echo '<div class="card bg-dark text-white" style="border-radius: 0;">
     </button>
 </form>
 <?php
-include "../jszModosit.php";
+include "../adatFrissites.php";
+(new AdatFrissites())->jelszoFrissit();
 ?>
 </body>
 </html>

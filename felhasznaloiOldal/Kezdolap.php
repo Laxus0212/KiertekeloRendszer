@@ -38,10 +38,10 @@ if (isset($_SESSION["felh_nev"])) {
                 <a class="nav-link" href="../felhasznaloiOldal/Elerhetoseg.php">Elérhetőség</a>
             </li>
             <?php
-            if ($_SESSION["loggedin"]) {
-                echo '<li class="nav-item">
+            if (isset($_SESSION["loggedin"])){
+                    echo '<li class="nav-item">
             <a class="nav-link" href="../felhasznaloiOldal/JelszoModositas.php">Jelszó módosítás</a>
-        </li>';
+                    </li>';
             }
             ?>
             <li class="nav-item">

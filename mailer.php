@@ -32,7 +32,7 @@ try {
     $mail->addAddress('varadizsolt0212@gmail.com');               // Name is optional
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = $_POST["targy"];
+    $mail->Subject = $_POST["targy"]." - E-mail: ".$kuldoEmail;
     $mail->Body = "<p>" . $_POST["uzenet"] . "</p>";
     //$mail->AltBody = '<p>This is the body in plain text for non-HTML mail clients</p>';
     $mail->send();

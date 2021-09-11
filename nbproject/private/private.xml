@@ -2,18 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/adatbazisKapcsolat.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/belepes/log.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/admin/adminRAMTorol.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/regisztracio/regisztracio.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/regisztracio/reg.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/torles/torles.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/belepes/belepes.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/admin/adminFelhTorol.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/felhasznalo.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/nevekLista/nevekListaTorleshez.php</file>
-            <file>file:/C:/xampp/htdocs/KiertekeloRendszer/admin/adminAdatFeltolt.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

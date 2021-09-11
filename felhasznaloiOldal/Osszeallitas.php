@@ -1,5 +1,6 @@
 <?php
-include '../felhasznalo.php';
+include_once "../felhEllenorzes.php";
+(new FelhEllenorzes())->felhasznalo();
 ?>
 <!DOCTYPE html>
 <html lang="hu">

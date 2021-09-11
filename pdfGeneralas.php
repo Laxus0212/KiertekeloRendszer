@@ -1,6 +1,9 @@
 <?php
 include_once __DIR__ . "/tfpdf/tfpdf.php";
-include_once __DIR__."/konfigFeltolt.php";
+include_once __DIR__."/feltoltes.php";
+$feltoltes = new Feltoltes();
+$feltoltes->konfigFeltolt();
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 if (isset($_POST["PDF"])) {

@@ -1,5 +1,6 @@
 <?php
-include '../admin.php';
+require_once "../felhEllenorzes.php";
+(new FelhEllenorzes())->admin();
 ?>
 <!DOCTYPE html>
 
@@ -43,7 +44,7 @@ echo '<div class="card bg-dark text-white" style="border-radius: 0;">
             <a class="nav-link" href="../admin/adminRAMTorol.php">RAM törlés</a>
         </li>
         <li class="nav-item">
-            <form action="../pdfGeneralas.php" method="post">
+            <form action="../pdfGeneralas.php" method="post" target="_blank">
                 <button class="nav-link" type="submit" name="adminPDF" id="adminPDF"
                         style="background-color: transparent; border: 0">Konfigurációk PDF
                 </button>

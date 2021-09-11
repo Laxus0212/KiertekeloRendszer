@@ -1,26 +1,8 @@
 <?php
-
-//        $host = "localhost";
-//        $ab_nev = "root";
-//        $ab_jelszo = "";
-//        $abnev = "regisztraciosadatok";
-//        
-//        $kapcsolat = mysqli_connect($host, $ab_nev, $ab_jelszo, $abnev) or die("Hiba a kapcsolat létrehozásakor!");
-
-
-// $host = "tanulo20.szf1b.oktatas.szamalk-szalezi.hu";
-// $ab_nev = "c1_tanulo20szf1b";
-// $ab_jelszo = "_tanulo20szf1b";
-// $abnev = "c1ABtanulo20szf1b";
-
 class abKapcsolat
 {
     function kapcsolodas()
     {
-        /*$host = "tanulo20.szf1b.oktatas.szamalk-szalezi.hu";
-        $fnev = "c1_tanulo20szf1b";
-        $jsz = "_tanulo20szf1b";
-        $abnev = "c1ABtanulo20szf1b";*/
 
         $host = "localhost";
         $fnev = "root";

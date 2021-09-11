@@ -1,7 +1,6 @@
 <?php
-include_once '../felhasznalo.php';
-
-
+include_once "../felhEllenorzes.php";
+(new FelhEllenorzes())->felhasznalo();
 ?>
 <!DOCTYPE html>
 
@@ -87,12 +86,12 @@ if (isset($_POST["submit"])) {
 
     <div class="form-group">
         <label for="kuldoNeve">Küldő neve</label>
-        <input class="form-control" type="text" name="kuldoNeve" value=""/>
+        <input class="form-control" type="text" name="kuldoNeve"/>
     </div>
 
     <div class="form-group">
         <label for="kuldoEmail">Küldő email címe</label>
-        <input class="form-control" type="text" name="kuldoEmail" value=""/>
+        <input class="form-control" type="text" name="kuldoEmail"/>
     </div>
 
     <div class="form-group" style="padding-bottom: 20px">
